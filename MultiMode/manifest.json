@@ -1,0 +1,26 @@
+{
+    "name": "MultiMode",
+    "options_page": "OtherModes.html",
+    "description": "A Chrome extension that allows you to toggle between various background modes, as per your preference!",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "/Logo/Logo16x16.png",
+        "32": "/Logo/Logo32x32.png",
+        "48": "/Logo/Logo48x48.png",
+        "128": "/Logo/Logo128x128.png"
+      }
+    },
+    "icons": {
+      "16": "/Logo/Logo16x16.png",
+      "32": "/Logo/Logo32x32.png",
+      "48": "/Logo/Logo48x48.png",
+      "128": "/Logo/Logo128x128.png"
+    } 
+  }
